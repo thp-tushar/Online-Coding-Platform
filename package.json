@@ -1,0 +1,24 @@
+{
+    "name": "zeditor",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --build --verbose tsconfig.build.json"
+    },
+    "keywords": [],
+    "workspaces": [
+        "./backend",
+        "./common",
+        "./frontend"
+    ],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@reduxjs/toolkit": "^2.5.0",
+        "@types/react-toastify": "^4.0.2",
+        "react-redux": "^9.2.0",
+        "react-toastify": "^11.0.3"
+    }
+}
